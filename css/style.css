@@ -134,9 +134,20 @@ section {
 #resume {
     width: 100%;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
     margin-top: 50px;
     display: none;
+}
+#resume a {
+    width: 70%;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    background-color:  rgb(41, 41, 48);
+    margin-bottom: 10px;
+    padding: 10px 0;
 }
 #resume iframe {
     width: 70%;
@@ -244,6 +255,7 @@ section {
         text-align: center;
         font-size: 25px;
         margin-top: 0;
+        margin-left: 10px;
     }
     .text p:nth-child(2) {
         font-size: 18px;
@@ -269,6 +281,12 @@ section {
     .button {
         width: 130px;
         height: 60px;
+        font-size: 20px;
+    }
+    #resume  {
+        margin-top: 10px;
+    }
+    #resume a{
         font-size: 20px;
     }
     #resume iframe {
